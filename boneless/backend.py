@@ -10,7 +10,7 @@ def get_drink_sizes(query):
     # For demo purposes, this is ok
     # For implementation, have you datalink class here
     # leverage the query to test over 'limit' statements
-    dummy_df = pd.read_csv('../data/drinks.csv')
+    drinks_df = pd.read_csv('./data/drinks.csv')
     return drinks_df
 
 def get_min_drink_size(drinks_df):
