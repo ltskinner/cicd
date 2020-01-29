@@ -26,3 +26,29 @@ requirements.txt
 setup.py
 tox.ini
 ```
+
+## Executing Tests
+
+```
+# Unit Tests
+
+$ python -m unittest discover -s boneless/tests/unit
+```
+
+```
+# Integration Tests
+
+$ python -m unittest discover -s boneless/tests/integration
+```
+
+## coverage
+
+* See `.coveragerc`
+
+```
+# Full test suite (unit + integration)
+
+$ coverage run -m unittest discover
+$ coverage report -m
+$ coverage html
+```
