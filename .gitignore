@@ -1,0 +1,18 @@
+
+/.vscode
+*.pyc
+
+/data
+
+# Env + testing
+/.tox
+
+# Test coverage
+/htmlcov
+.coverage
+
+# Packaging
+/build
+/dist
+*.egg-info
+/*.egg
