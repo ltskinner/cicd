@@ -1,0 +1,12 @@
+
+
+.single_img{
+    padding: 2% 2%;
+    max-width:500px;
+}
+
+.layout_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
