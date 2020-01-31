@@ -64,11 +64,10 @@ phases:
     #base-directory: location
     #discard-paths: yes
     #file-format: JunitXml | CucumberJson
-#artifacts:
-  #files:
-    #- location
-    #- location
-  #name: artifact-name
+artifacts:
+  files:
+    - '**/*'
+  name: boneless-cicd-$(date +%Y-%m-%d) 
   #discard-paths: yes
   #base-directory: location
   #secondary-artifacts:
