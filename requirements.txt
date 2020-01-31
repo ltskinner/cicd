@@ -24,5 +24,3 @@ plotly-geo==1.0.0
 
 requests==2.21.0
 requests-toolbelt==0.9.1
-
-Shapely==1.6.3
