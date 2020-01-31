@@ -7,7 +7,8 @@ import boneless
 class TestUnitBackend(unittest.TestCase):
     def test_order_pizza(self):
         response = boneless.backend.order_pizza()
-        expected_response = "YA PIZZA WAT U WANT"
+        #expected_response = "YA PIZZA WAT U WANT"
+        expected_response = "deliberate break"
         self.assertEqual(response, expected_response)
     
     def test_get_min_drink_size(self):
