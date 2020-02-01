@@ -20,6 +20,7 @@ app.title = 'Boneless Media Inc.'
 app.layout = html.Div(
     children=[
         dcc.Markdown('# Absolute Units'),
+        html.Markdown('## "eDiT tHe AbsOluTe UniTs oR sOmeThIng"'),
         html.Img(src=badge_link, className='single_img'),
         html.Img(src=unit_0_link, className='single_img'),
         html.Img(src=unit_1_link, className='single_img')
