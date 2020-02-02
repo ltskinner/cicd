@@ -17,6 +17,7 @@ def get_min_drink_size(drinks_df):
     return str(drinks_df['size'].min())
 
 def do_pull_checks_work():
+    # I think CL is too powerful
     return 'maybe'
 
 
