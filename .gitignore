@@ -3,10 +3,19 @@
 /.vscode
 
 # Python Generated
+/.mypy_cache
 *.pyc
-/logs
+*.sqlite
 
+
+# Standard Folders
 /data
+/models
+
+# Logs
+/logs
+*.log
+
 
 # Env + testing
 /.tox
@@ -14,6 +23,7 @@
 # Test coverage
 /htmlcov
 .coverage
+
 
 # Packaging
 /build

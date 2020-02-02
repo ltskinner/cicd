@@ -1,5 +1,9 @@
 
+
 import pandas as pd
+
+import logging
+logger = logging.getLogger()
 
 
 def order_pizza():
@@ -13,8 +17,10 @@ def get_drink_sizes(query):
     drinks_df = pd.read_csv('./boneless/tests/integration/fixtures/drinks.csv')
     return drinks_df
 
+
 def get_min_drink_size(drinks_df):
     return str(drinks_df['size'].min())
+
 
 def do_pull_checks_work():
     # I think CL is too powerful

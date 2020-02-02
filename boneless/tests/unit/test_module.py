@@ -1,7 +1,8 @@
 import unittest
 
 # Not neccessary if running from top level
-import sys, os
+import os
+import sys
 testdir = os.path.dirname(__file__)
 
 sys.path.insert(0, os.path.abspath(os.path.join(testdir, '..')))
@@ -21,7 +22,7 @@ class TestSum(unittest.TestCase):
 
     def tearDown(self):
         pass
-    
+
     @classmethod
     def tearDownClass(self):
         pass
@@ -33,7 +34,7 @@ class TestSum(unittest.TestCase):
     def test_submodule_import(self):
         res = use_sub_module_function()
         self.assertTrue(res)
-    
+
     def test_test_read_from_lib(self):
         expected = 'ayy lmao'
         returned = test_read_from_lib()

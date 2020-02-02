@@ -1,4 +1,8 @@
 
+import logging
+logger = logging.getLogger()
+
+
 def sub_module_function():
-    print('hello world from submodule.py')
+    logger.info('hello world from submodule.py')
     return True
