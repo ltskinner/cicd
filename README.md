@@ -90,8 +90,8 @@ $ python setup.py sdist bdist_wheel
 | **/data** | use_dates_YYYY_MM_DD.csv |
 | **/models** | use_dates_too_YYYY_MM_DD.h5 | version_models_v1.h5 |
 
-## Sprint Boards
+## Sprint Board - Swimlanes
 
-| Backlogs | | Design | | | | Implementation | | | Testing | | | | Deployed |
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+| Backlogs | | Design | | | | Implementation | | | Testing | | | Deployed |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|
 | Project | Sprint | Problem Framing | In Progress | "Done" | Review | In Progress | "Done" | Review | In Progress | "Done" | Review | Deployed |
