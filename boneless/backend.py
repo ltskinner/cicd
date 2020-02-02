@@ -16,6 +16,9 @@ def get_drink_sizes(query):
 def get_min_drink_size(drinks_df):
     return str(drinks_df['size'].min())
 
+def add_function():
+    pass
+
 
 if __name__ == '__main__':
     order_pizza()
