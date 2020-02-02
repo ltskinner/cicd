@@ -17,7 +17,7 @@ def get_min_drink_size(drinks_df):
     return str(drinks_df['size'].min())
 
 def add_function():
-    return -1
+    return
 
 
 if __name__ == '__main__':
