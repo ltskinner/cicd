@@ -23,7 +23,7 @@ class TestUnitBackend(unittest.TestCase):
         )
         self.assertEqual(result, expected_answer)
     
-    def do_pull_checks_work(self):
+    def test_do_pull_checks_work(self):
 
-        do_they = boneless.do_pull_checks_work()
-        self.assertEqual(do_they, 'maybe')
+        do_they = boneless.backend.do_pull_checks_work()
+        self.assertEqual(do_they, 'no?')
