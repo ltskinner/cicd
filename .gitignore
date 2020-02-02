@@ -1,6 +1,10 @@
 
+# IDE Created folders
 /.vscode
+
+# Python Generated
 *.pyc
+/logs
 
 /data
 
