@@ -22,3 +22,8 @@ class TestUnitBackend(unittest.TestCase):
             arbitrary_df_only_for_testing_operations
         )
         self.assertEqual(result, expected_answer)
+    
+    def do_pull_checks_work(self):
+
+        do_they = boneless.do_pull_checks_work()
+        self.assertEqual(do_they, 'maybe')

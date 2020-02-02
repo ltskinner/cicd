@@ -16,8 +16,8 @@ def get_drink_sizes(query):
 def get_min_drink_size(drinks_df):
     return str(drinks_df['size'].min())
 
-def add_function():
-    return
+def do_pull_checks_work():
+    return 'maybe'
 
 
 if __name__ == '__main__':
