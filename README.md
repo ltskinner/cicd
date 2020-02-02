@@ -89,3 +89,9 @@ $ python setup.py sdist bdist_wheel
 | | .drawio | DrawIO_Architecture.drawio | Capitalized, '_' |
 | **/data** | use_dates_YYYY_MM_DD.csv |
 | **/models** | use_dates_too_YYYY_MM_DD.h5 | version_models_v1.h5 |
+
+## Sprint Boards
+
+| Backlogs | | Design | | | | Implementation | | | Testing | | | | Deployed |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+| Project | Sprint | Problem Framing | In Progress | "Done" | Review | In Progress | "Done" | Review | In Progress | "Done" | Review | Deployed |
