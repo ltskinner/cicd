@@ -18,7 +18,7 @@ def get_min_drink_size(drinks_df):
 
 def do_pull_checks_work():
     # I think CL is too powerful
-    return 'no?'
+    return 'yes :)'
 
 
 if __name__ == '__main__':
