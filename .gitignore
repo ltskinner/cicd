@@ -1,6 +1,6 @@
 
 # IDE Created folders
-# /.vscode  # Uncommented in /cicd so .vscode/settings.json example makes source
+/.vscode
 
 # Python Generated
 *.pyc
