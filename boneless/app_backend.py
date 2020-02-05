@@ -56,6 +56,5 @@ def make_unit_1_callback(app):
 
 
 def update_unit_count_1(n_clicks):
-    print(n_clicks)
     logger.info(f'[TELEM] [EVENT] Vote Unit 1: {n_clicks}')
     return [f'Unit 1 Votes: {n_clicks}']
