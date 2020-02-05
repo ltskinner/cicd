@@ -83,7 +83,7 @@ $ python setup.py sdist bdist_wheel
 |-|-|-|-|-|
 | **Project** | repos | Capitalized-With-Hyphens | OrNoSpaces | Git-Repositories |
 | | packages | lowercase_underscores |
-| | modules.py | lowercase_underscore |
+| | modules.py | lowercase_underscore | make_sure_are_unique.py |
 | **Documentation** | MS Docs | Word_Documents.docx | PDF_Docs.pdf | Visio.vsdx |
 | | .md | USE_CAPS_UNDERSCORES.md |
 | | .drawio | DrawIO_Architecture.drawio | Capitalized, '_' |
