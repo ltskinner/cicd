@@ -5,6 +5,10 @@
     max-width:500px;
 }
 
+.unit_voter_div{
+    display: flex;
+    flex-direction: column;
+}
 .layout_div{
     display: flex;
     flex-direction: column;
