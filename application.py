@@ -8,8 +8,17 @@ from boneless import (get_unit_0, make_unit_0_callback,
 
 import logging
 import logging.config
+from boneless import get_env_name
 
-logging.config.fileConfig(fname="./logging.conf")
+
+env_name = get_env_name()
+logger_config_file = f'./logging_{env_name.lower()}.conf'
+logging.config.fileConfig(fname=logger_config_file)
+
+logger = logging.getLogger()
+logger.info(f'ENV: {env_name}')
+logger.info(f'Logger config: {logger_config_file}')
+
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
