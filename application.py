@@ -16,6 +16,7 @@ logger_config_file = f'./logging_{env_name.lower()}.conf'
 logging.config.fileConfig(fname=logger_config_file)
 
 logger = logging.getLogger()
+logger.info(f'---------------------------------------------------------------')
 logger.info(f'ENV: {env_name}')
 logger.info(f'Logger config: {logger_config_file}')
 
