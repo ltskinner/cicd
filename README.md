@@ -13,6 +13,12 @@ Test ground for CICD tools
     settings.json               # Note, this will just be local - not in source control
 /hooks
     pre-commit                  # Will need to move these into the local `.git` folder
+/docs
+    /branding
+        logo.jpg
+    architecture.drawio
+/docker
+    Dockerfile
 /lib
     banner.txt
 /data
@@ -95,3 +101,7 @@ $ python setup.py sdist bdist_wheel
 | Backlogs | | Design | | | | Implementation | | | Testing | | | Deployed |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
 | Project | Sprint | Problem Framing | In Progress | "Done" | Review | In Progress | "Done" | Review | In Progress | "Done" | Review | Deployed |
+
+## Infosec and Security Help
+
+* [https://owasp.org/www-project-cheat-sheets/](https://owasp.org/www-project-cheat-sheets/)
