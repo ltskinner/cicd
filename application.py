@@ -4,7 +4,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 from boneless import (get_unit_0, make_unit_0_callback,
-                      get_unit_1, make_unit_1_callback)
+                      get_unit_1, make_unit_1_callback,
+                      get_unit_2, make_unit_2_callback)
 
 import logging
 import logging.config
@@ -41,7 +42,8 @@ app.layout = html.Div(
         dcc.Markdown('#### Which is the best Unit:'),
 
         get_unit_0(),
-        get_unit_1()
+        get_unit_1(),
+        get_unit_2()
 
     ],
     className='layout_div'
@@ -49,6 +51,7 @@ app.layout = html.Div(
 
 make_unit_0_callback(app)
 make_unit_1_callback(app)
+make_unit_2_callback(app)
 
 
 if __name__ == '__main__':

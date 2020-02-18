@@ -35,6 +35,20 @@ def get_unit_1():
     return unit_1
 
 
+def get_unit_2():
+    unit_2_link = 'https://cdn.wccftech.com/wp-content/uploads/2018/03/NVIDIA-DGX-2-2.png'
+
+    unit_2 = html.Div(
+        children=[
+            html.Img(src=unit_2_link, className='single_img'),
+            html.Button('Vote Unit 2', id='unit_2_button'),
+            html.Div(id='unit_2_button_count', children='Unit 2 Votes: 0')
+        ],
+        className='unit_voter_div'
+    )
+    return unit_2
+
+
 def make_unit_0_callback(app):
     app.callback(
         [Output('unit_0_button_count', 'children')],
@@ -57,3 +71,15 @@ def make_unit_1_callback(app):
 def update_unit_count_1(n_clicks):
     logger.info(f'[TELEM] [EVENT] Vote Unit 1: {n_clicks}')
     return [f'Unit 1 Votes: {n_clicks}']
+
+
+def make_unit_2_callback(app):
+    app.callback(
+        [Output('unit_2_button_count', 'children')],
+        [Input('unit_2_button', 'n_clicks')]
+    )(update_unit_count_2)
+
+
+def update_unit_count_2(n_clicks):
+    logger.info(f'[TELEM] [EVENT] Vote Unit 2: {n_clicks}')
+    return [f'Unit 2 Votes: {n_clicks}']
