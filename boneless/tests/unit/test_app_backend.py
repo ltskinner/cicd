@@ -35,3 +35,6 @@ class TestUnitBackend(unittest.TestCase):
         n_clicks = 45
         children = update_unit_count_2(n_clicks)
         self.assertEqual(children[0], f'Unit 2 Votes: {n_clicks}')
+
+    def test_build_branch(self):
+        print('[+] Building the new branch')
