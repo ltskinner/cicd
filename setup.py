@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'requirements.txt'), encoding='utf-8') as f:
     required = f.read().splitlines()
 
 setup(name='boneless',
-      version='0.0.1',
+      version='0.1.2',
       description='CICD notes and live implementation - no COE here ;)',
       long_description=long_description,
       long_description_content_type='text/markdown',
