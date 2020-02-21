@@ -32,7 +32,7 @@ Test ground for CICD tools
             __init__.py
         /integration
             /fixtures
-                db_sample.py
+                db_sample.csv
             __init__.py
         __init__.py             # required to ensure `unittest discover` recurses
     /subpackage
