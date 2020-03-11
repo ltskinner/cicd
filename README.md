@@ -14,9 +14,13 @@ Test ground for CICD tools
 /hooks
     pre-commit                  # Will need to move these into the local `.git` folder
 /docs
+    /admin
+        Project_Proposal.pptx
+        Budget.xlsx
     /branding
         logo.jpg
     architecture.drawio
+/notes                          # Personal notes that dont need to be in SC
 /docker
     Dockerfile
 /lib
