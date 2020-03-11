@@ -11,6 +11,7 @@
 # Standard Folders
 /data
 /models
+/notes
 
 # Logs
 /logs

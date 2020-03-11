@@ -14,9 +14,13 @@ Test ground for CICD tools
 /hooks
     pre-commit                  # Will need to move these into the local `.git` folder
 /docs
+    /admin
+        Project_Proposal.pptx
+        Budget.xlsx
     /branding
         logo.jpg
     architecture.drawio
+/notes                          # Personal notes that dont need to be in SC
 /docker
     Dockerfile
 /lib
@@ -32,7 +36,7 @@ Test ground for CICD tools
             __init__.py
         /integration
             /fixtures
-                db_sample.py
+                db_sample.csv
             __init__.py
         __init__.py             # required to ensure `unittest discover` recurses
     /subpackage
