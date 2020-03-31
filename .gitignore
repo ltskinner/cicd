@@ -7,7 +7,6 @@
 *.pyc
 *.sqlite
 
-
 # Standard Folders
 /data
 /models
@@ -20,6 +19,7 @@
 
 # Env + testing
 /.tox
+.pytest_cache
 
 # Test coverage
 /htmlcov
