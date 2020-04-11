@@ -82,5 +82,5 @@ def make_unit_2_callback(app):
 
 def update_unit_count_2(n_clicks):
     logger.info(f'[TELEM] [EVENT] Vote Unit 2: {n_clicks}')
-    #int('deliberate error')
+    int('deliberate error')
     return [f'Unit 2 Votes: {n_clicks}']
