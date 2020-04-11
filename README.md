@@ -31,19 +31,19 @@ Test ground for CICD tools
 /models
     model_weights.h5
 /project
-    /tests
-        /unit
-            __init__.py
-        /integration
-            /fixtures
-                db_sample.csv
-            __init__.py
-        __init__.py             # required to ensure `unittest discover` recurses
     /subpackage
         __init__.py
         submodule.py
     __init__.py
     boneless.py
+/tests
+    /unit
+        __init__.py
+    /integration
+        /fixtures
+            db_sample.csv
+        __init__.py
+    __init__.py             # required to ensure `unittest discover` recurses
 .coveragerc
 .gitignore
 MANIFEST.ini                    # required so requirements.txt is properly read by setup.py

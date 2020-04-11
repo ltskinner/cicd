@@ -8,7 +8,7 @@ import boneless
 class TestIntegrationBackend(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        drinks_fixture_path = 'boneless/tests/integration/fixtures/drinks.csv'
+        drinks_fixture_path = './tests/integration/fixtures/drinks.csv'
         self.drinks_df = pd.read_csv(drinks_fixture_path)
 
     def setUp(self):

@@ -14,7 +14,7 @@ def get_drink_sizes(query):
     # For demo purposes, this is ok
     # For implementation, have you datalink class here
     # leverage the query to test over 'limit' statements
-    drinks_df = pd.read_csv('./boneless/tests/integration/fixtures/drinks.csv')
+    drinks_df = pd.read_csv('./data/drinks.csv')
     return drinks_df
 
 
